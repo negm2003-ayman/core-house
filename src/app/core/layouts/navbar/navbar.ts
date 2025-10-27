@@ -1,10 +1,12 @@
 import { Flowbite } from './../../services/Flowbite/flowbite';
 import { Component, HostListener, ViewChild } from '@angular/core';
+import { Component } from '@angular/core';
+import { RouterLink, RouterLinkActive } from '@angular/router';
 import { initFlowbite } from 'flowbite';
 
 @Component({
   selector: 'app-navbar',
-  imports: [],
+  imports: [RouterLink , RouterLinkActive],
   templateUrl: './navbar.html',
   styleUrl: './navbar.css',
 })

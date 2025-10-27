@@ -1,10 +1,4 @@
-import { Component } from '@angular/core';
 import { Routes } from '@angular/router';
-import { Home } from './core/pages/home/home';
-import { About } from './core/pages/about/about';
-import { Servives } from './core/pages/servives/servives';
-import { Portfolio } from './core/pages/portfolio/portfolio';
-import { Notfound } from './core/pages/notfound/notfound';
 
 export const routes: Routes = [
     {path:'' , redirectTo:'home' , pathMatch: 'full'},
